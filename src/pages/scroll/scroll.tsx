@@ -36,7 +36,7 @@ export const Scroll = () => {
       <ul className="scroll-container__list">
         {arrayDiv.map((_, id) => (
           <li key={id} className="scroll-container__item">
-            <div>
+            <div className="scroll-container__item-descr">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Asperiores architecto excepturi fuga cum vitae facilis, deserunt
               culpa placeat consectetur, molestiae amet odio reiciendis eum,

@@ -18,6 +18,10 @@
 
 .scroll-container__item {
   padding: 10px;
-  background-color: bisque;
+  background-color: var(--tg-theme-bg-color);
   border-radius: 20px;
+}
+
+.scroll-container__item-descr {
+  color: var(--tg-theme-text-color);
 }
