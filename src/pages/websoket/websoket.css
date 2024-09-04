@@ -1,0 +1,42 @@
+.websoket {
+  padding: 20px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.websoket__wrapper {
+  display: flex;
+  gap: 10px;
+  position: fixed;
+  bottom: 75px;
+}
+
+.websoket__input {
+  padding: 15px;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 20px;
+  outline: none;
+  font-size: 20px;
+}
+
+.websoket__list {
+  margin: 0;
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: flex-start;
+  background-color: aliceblue;
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px 2px #0000007d;
+}
+
+.websoket__item {
+  border-bottom: 1px solid #000;
+}
